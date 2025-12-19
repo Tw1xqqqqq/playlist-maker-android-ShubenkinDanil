@@ -1,4 +1,4 @@
-package com.practicum.myapplication.screens
+package com.practicum.myapplication.ui.main
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -21,8 +21,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.practicum.myapplication.R
-import com.practicum.myapplication.utils.ButtonSample
-import com.practicum.myapplication.utils.IconType
+import com.practicum.myapplication.ui.utils.ButtonSample
+import com.practicum.myapplication.ui.utils.IconType
 
 @Composable
 fun MenuScreen(

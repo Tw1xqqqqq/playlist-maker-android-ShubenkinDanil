@@ -1,13 +1,13 @@
-package com.practicum.myapplication.navigation
+package com.practicum.myapplication.ui.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.practicum.myapplication.screens.MenuScreen
-import com.practicum.myapplication.screens.SearchScreen
-import com.practicum.myapplication.screens.SettingsScreen
+import com.practicum.myapplication.ui.main.MenuScreen
+import com.practicum.myapplication.ui.search.SearchScreen
+import com.practicum.myapplication.ui.settings.SettingsScreen
 
 enum class Screen(val route: String) {
     MAIN_MENU("main_menu"),

@@ -1,4 +1,4 @@
-package com.practicum.myapplication.utils
+package com.practicum.myapplication.ui.utils
 
 import android.content.Context
 import androidx.compose.foundation.clickable

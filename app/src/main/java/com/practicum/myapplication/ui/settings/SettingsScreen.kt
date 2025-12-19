@@ -1,4 +1,4 @@
-package com.practicum.myapplication.screens
+package com.practicum.myapplication.ui.settings
 
 import android.content.Intent
 import androidx.compose.foundation.background
@@ -16,9 +16,9 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
-import com.practicum.myapplication.utils.ButtonSample
-import com.practicum.myapplication.utils.IconType
-import com.practicum.myapplication.utils.TopAppButtonBar
+import com.practicum.myapplication.ui.utils.ButtonSample
+import com.practicum.myapplication.ui.utils.IconType
+import com.practicum.myapplication.ui.utils.TopAppButtonBar
 import androidx.core.net.toUri
 import com.practicum.myapplication.R
 

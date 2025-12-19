@@ -1,4 +1,4 @@
-package com.practicum.myapplication.screens
+package com.practicum.myapplication.ui.search
 
 import android.content.Intent
 import androidx.compose.foundation.background
@@ -39,9 +39,9 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.practicum.myapplication.MainActivity
+import com.practicum.myapplication.ui.activity.MainActivity
 import com.practicum.myapplication.R
-import com.practicum.myapplication.utils.TopAppButtonBar
+import com.practicum.myapplication.ui.utils.TopAppButtonBar
 
 @Composable
 fun SearchScreen(onBackClick: () -> Unit) {
@@ -134,7 +134,6 @@ fun CustomSearchField(
                             modifier = Modifier.fillMaxSize(),
                             contentAlignment = Alignment.CenterStart
                         ) {
-                            // Placeholder
                             if (value.isEmpty()) {
                                 Text(
                                     text = placeholder,
